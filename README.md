@@ -24,12 +24,8 @@ In addition, the repository contains the following original data files:
 * First dataset, used for developing the solution: **synthetic_data_lung_cancer.csv**
 * Second dataset, used to check generalizability of the solutions: **synthetic_data_pca.csv**
 
-And data files, we created to aid re-running the code without processing data over-and-over again:
-
-* First dataset after turing interventions into features and normalizing weights per subject: **wide1.csv**
-* Second dataset after turing interventions into features and normalizing weights per subject: **wide2.csv**
-* First dataset after turning intervention into features and binarizing the weights: **wide_data_binary_1.csv**
-
 ## Running the code
 
-The code is rather straightforward to run - Just open the code you wish to employ and run the code. We note that some code files might take longer to run than others (but no file should take longer than 30 mins). Either way, the Jupyter notebooks in the repository have the outputs saved so you do not need to re-run the code to inspect how it ran.
+You need to run **RF_Baseline_Untuned.ipynb** before running any other code. The reason for this is simple. That code will turn the intervention histories into machine interpretable datasets (wide1.csv and wide2.csv), which has nornmalized features. 
+
+After that the code is rather straightforward to run - Just open any program you wish to employ and run the code. We note that some code files might take longer to run than others (but no file should take longer than 30 mins). Either way, the Jupyter notebooks in the repository have the outputs saved so you do not need to re-run the code to inspect how it ran.
