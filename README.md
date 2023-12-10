@@ -29,3 +29,5 @@ In addition, the repository contains the following original data files:
 You need to run **RF_Baseline_Untuned.ipynb** before running any other code. The reason for this is simple. That code will turn the intervention histories into machine interpretable datasets (wide1.csv and wide2.csv), which has nornmalized features. 
 
 After that the code is rather straightforward to run - Just open any program you wish to employ and run the code. We note that some code files might take longer to run than others (but no file should take longer than 30 mins). Either way, the Jupyter notebooks in the repository have the outputs saved so you do not need to re-run the code to inspect how it ran.
+
+NB! Be vary of external libraries used. You might need install some packages (sklearn, numpy, pandas, smote, shap, seaborn).
