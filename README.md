@@ -19,10 +19,13 @@ We employed several methods to arrive at a solution. Each method was split into 
 * Tuned RandomForest with Variance-Based Feature Selection: **Tuned_RF_Variance_Feature_Selection.ipynb**
 * K-Nearest Neighbours Sanity Check: **KNN_Sanity_Check_Model_Selection.ipynb**
 
-In addition, the repository contains the following data files:
+In addition, the repository contains the following original data files:
 
 * First dataset, used for developing the solution: **synthetic_data_lung_cancer.csv**
 * Second dataset, used to check generalizability of the solutions: **synthetic_data_pca.csv**
+
+And data files, we created to aid re-running the code without processing data over-and-over again:
+
 * First dataset after turing interventions into features and normalizing weights per subject: **wide1.csv**
 * Second dataset after turing interventions into features and normalizing weights per subject: **wide2.csv**
 * First dataset after turning intervention into features and binarizing the weights: **wide_data_binary_1.csv**
