@@ -10,14 +10,14 @@ The primary motivation behind this project is to address the critical challenge 
 We employed several methods to arrive at a solution. Each method was split into a separate document, to aid interpreting results easier. The code files (in the form of Jupyter notebooks) found are the following:
 
 * RandomForest Baseline: **RF_Baseline_Untuned.ipynb**
-* Tuned RandomForest with Hyper-Parameter Selection: **Tuned_RF_Hyperparam_Selection.ipynb**
+* Tuned RandomForest with Hyper-Parameter Selection: **Tuned_RF.ipynb**
 * Tuned RandomForest with First Interventions Only: **Tuned_RF_First_Interventions.ipynb**
 * Tuned RandomForest Dropping Binary Correlated Features: **Tuned_RF_Drop_Binary_Correlated.ipynb**
 * Tuned RandomForest Dropping Weighted Correlated Features: **Tuned_RF_Drop_Weighted_Correlated.ipynb**
 * Tuned RandomForest Dropping 'Measurements' Interventions: **Tuned_RF_Drop_Measurements.ipynb**
 * Tuned RandomForest with SHAP-Based Feature Selection: **Tuned_RF_SHAP_Feature_Selection.ipynb**
 * Tuned RandomForest with Variance-Based Feature Selection: **Tuned_RF_Variance_Feature_Selection.ipynb**
-* K-Nearest Neighbours Sanity Check: **KNN_Sanity_Check_Model_Selection.ipynb**
+* Tuned K-Nearest Neighbours (KNN): **Tuned_KNN.ipynb**
 
 In addition, the repository contains the following original data files:
 
