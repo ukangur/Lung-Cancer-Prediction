@@ -27,7 +27,7 @@ In addition, the repository contains the following original data files:
 
 ## Running the code
 
-You need to run **RF_Baseline_Untuned.ipynb** before running any other code. The reason for this is simple. That code will turn the intervention histories into machine interpretable datasets (wide1.csv and wide2.csv), which has nornmalized features. 
+You need to run **RF_Baseline_Untuned.ipynb** before running any other code. The reason for this is simple. That code will turn the intervention histories into machine interpretable datasets (wide1.csv and wide2.csv), which has nornmalized features. In additon it will create the binary version of wide1 called wide_data_binary_1.csv and the feature correlation matrices (both binary and weighed versions). These will be loaded in other methods directly for more efficiency.
 
 After that the code is rather straightforward to run - Just open any program you wish to employ and run the code. We note that some code files might take longer to run than others (but no file should take longer than 30 mins). Either way, the Jupyter notebooks in the repository have the outputs saved so you do not need to re-run the code to inspect how it ran.
 
