@@ -12,7 +12,8 @@ We employed several methods to arrive at a solution. Each method was split into 
 * RandomForest Baseline: **RF_Baseline_Untuned.ipynb**
 * Tuned RandomForest with Hyper-Parameter Selection: **Tuned_RF.ipynb**
 * Tuned RandomForest with First Interventions Only: **Tuned_RF_First_Interventions.ipynb**
-* Tuned RandomForest Dropping Correlated Features: **Tuned_RF_Drop_Binary_Correlated.ipynb**
+* Tuned RandomForest Dropping Binary Correlated Features: **Tuned_RF_Drop_Binary_Correlated.ipynb**
+* * Tuned RandomForest Dropping Weighed Correlated Features: **Tuned_RF_Drop_Weighed_Correlated.ipynb**
 * Tuned RandomForest Dropping 'Measurements' Interventions: **Tuned_RF_Drop_Measurements.ipynb**
 * Tuned RandomForest with SHAP-Based Feature Selection: **Tuned_RF_SHAP_Feature_Selection.ipynb**
 * Tuned RandomForest with Variance-Based Feature Selection: **Tuned_RF_Variance_Feature_Selection.ipynb**
