@@ -7,7 +7,7 @@ The primary motivation behind this project is to address the critical challenge 
 
 ## Structure of the repository
 
-We employed several methods to arrive at a solution. Each method was split into a separate document, to aid interpreting results easier. The code files (in the form of Jupyter notebooks) found are the following:
+We employed several methods to arrive at a solution. Each method was split into a separate notebook, to aid interpreting results easier. The code files (in the form of Jupyter notebooks) found are the following:
 
 * RandomForest Baseline: **RF_Baseline_Untuned.ipynb**
 * Tuned RandomForest with Hyper-Parameter Selection: **Tuned_RF.ipynb**
